@@ -1,0 +1,7 @@
+[package]
+name = "specs_test"
+version = "0.1.0"
+authors = ["khlam <4841220+khlam@users.noreply.github.com>"]
+
+[dependencies]
+specs = "0.10"
