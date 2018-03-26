@@ -1,0 +1,1 @@
+{"rustc":18116088539158670656,"features":"[\"minwinbase\", \"minwindef\", \"ntdef\", \"ntsecapi\", \"profileapi\", \"std\", \"sysinfoapi\", \"timezoneapi\", \"winnt\"]","target":13123923088509177768,"profile":4513376542218014594,"path":5463908147135104393,"deps":[],"local":[{"Precalculated":"0.3.4"}],"rustflags":[]}

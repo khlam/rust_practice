@@ -1,0 +1,16 @@
+C:\Users\khlam\Documents\rust_practice\specs_test\target\debug\deps\libsyn-10fa1802d2c077b2.rlib: C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\lib.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\attr.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\constant.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\data.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\escape.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\generics.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\ident.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\lit.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\mac.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\derive.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\op.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\ty.rs
+
+C:\Users\khlam\Documents\rust_practice\specs_test\target\debug\deps\syn-10fa1802d2c077b2.d: C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\lib.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\attr.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\constant.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\data.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\escape.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\generics.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\ident.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\lit.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\mac.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\derive.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\op.rs C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\ty.rs
+
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\lib.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\attr.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\constant.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\data.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\escape.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\generics.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\ident.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\lit.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\mac.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\derive.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\op.rs:
+C:\Users\khlam\.cargo\registry\src\github.com-1ecc6299db9ec823\syn-0.11.11\src\ty.rs:
