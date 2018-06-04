@@ -1,0 +1,6 @@
+[package]
+name = "webserver"
+version = "0.1.0"
+authors = ["khlam <4841220+khlam@users.noreply.github.com>"]
+
+[dependencies]
