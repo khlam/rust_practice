@@ -1,21 +1,18 @@
-# Bad Line
+# Bad Lines Start
 ;;;
-# Bad Line
 31;1;1;
-# Bad Line
 summary;21;1;
-# Bad Line
 1;0;waitForClick:gameboard:;
+1;0;waitForClick:gameboard::;
+# Bad Lines End
 
-# Good Line
-1;0;waitForClick:gameboard:Please click on the most important entity in the gameboard above.  Then answer the question below.;What is your favorite color?
-# Good Line
-1;0;waitForClick:gameboard_rewardBar:TEST_TEXT;What is your favorite color?
-# Good Line
+
+1;0;waitForClick:gameboard:Please click on the most important entity in the gameboard above.  Then answer the question below.;What is your favorite color? Is this another question?
+
 31;0;waitForClick:gameboard_rewardBar_saliencyMap:Please click on the most important entity in the gameboard above or the other two places. Then answer the question below.;What is your favorite car?;honda;chevy;toyota;tesla
-# Good Line
+
 63;0;plain:NA:NA;How did this happen?;not sure;it's too obvious to tell
-# Good Line
+
 summary;0;plain:NA:NA;what is your mental model?
-# Good Line
+
 summary;1;plain:NA:NA;what is it now?
