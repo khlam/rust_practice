@@ -48,9 +48,10 @@ fn get_study_question(line: &String, line_num: &u8) {
     check_regex("^[0-9]+$".to_string(), "INDEX REGEX FAIL".to_string(), &question_index, &line_num);
     
     let question_type: String = vec[2].to_string();
-    check_regex("plain:NA:NA|^waitForClick:(gameboard_|rewardBar_|saliencyMap_){0, 2}(gameboard|rewardBar|saliencyMap){0, 1}:.+".to_string(), "QUESTION TYPE REGEX FAIL".to_string(), &question_type, &line_num);
+    check_regex("^plain:NA:NA$|^waitForClick:(gameboard_|rewardBar_|saliencyMap_){0, 2}(gameboard|rewardBar|saliencyMap){0, 1}:.+".to_string(), "QUESTION TYPE REGEX FAIL".to_string(), &question_type, &line_num);
 
     let question : String = vec[3].to_string();
+    // println!("\t{:?} Question: {:?}", line_num, question);
     
     let mut answer_vec : Vec<String> = Vec::new();
     for x in 4..vec.len() {
@@ -61,7 +62,6 @@ fn get_study_question(line: &String, line_num: &u8) {
 fn check_regex(regex: String, msg: String, line: &String, line_num: &u8) {
     let step_reg = Regex::new(&regex).unwrap();
     if !step_reg.is_match(&line) {                      // on Regex no match, panic
-        println!("LINE\t{:?}\t{:?}", line_num, msg);
-       // return true;
+        panic!("LINE\t{:?}\t{:?}", line_num, msg);
     }
 }
