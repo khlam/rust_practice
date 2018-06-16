@@ -1,0 +1,5 @@
+1;0;waitForClick:gameboard:Please click on the most important entity in the gameboard above.  Then answer the question below.;What is your favorite color?
+31;0;waitForClick:gameboard_rewardBar_saliencyMap:Please click on the most important entity in the gameboard above or the other two places. Then answer the question below.;What is your favorite car?;honda;chevy;toyota;tesla
+63;0;plain:NA:NA;How did this happen?;not sure;it's too obvious to tell
+summary;0;plain:NA:NA;what is your mental model?
+summary;1;plain:NA:NA;what is it now?
