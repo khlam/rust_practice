@@ -72,16 +72,17 @@ fn check_question(line: &String, line_num: &u8, fname: &str) {
     
     let field2: String = vec[2].to_string();
     let f2vec: Vec<&str> = field2.split(":").collect();
+
     if f2vec.len() > 0 {
         if f2vec[0] == "plain" {
             check_regex("plain:NA:NA".to_string(), "Invalid entry for question type in Field 2. When question type is specified as plain, subfields 1 and 2 must be 'NA'. ".to_string(), &field2, &line, &line_num, &fname);
         }else{
             check_regex("^waitForClick".to_string(), "Invalid entry for question type in Field 2. Question type must be [ plain | waitForClick ]".to_string(), &f2vec[0].to_string(), &line, &line_num, &fname);
-            if f2vec.len() > 2 {
+            if f2vec.len() > 2  && !f2vec.contains(&""){
                 //println!("HERE: {}", f2vec[1]);
                 check_regex("^(gameboard_?|rewardBar_?|saliencyMap_?){0,3}$".to_string(), "Invalid entry for question type in Field 2, subfield 1. Valid entries are {gameboard, rewardBar, saliencyMap}, deliminated by _.".to_string(), &f2vec[1].to_string(), &line, &line_num, &fname);
             }else{
-                check_regex("$^".to_string(), "Invalid entry for question type in Field 2. Question type must be [ plain | waitForClick ]".to_string(), &f2vec[0].to_string(), &line, &line_num, &fname);
+                check_regex("$^".to_string(), "Invalid entry for question type in Field 2. Question type waitForClick cannot have blank subfields.".to_string(), &field2, &line, &line_num, &fname);
             }
         }
     }else {
@@ -97,7 +98,7 @@ fn check_question(line: &String, line_num: &u8, fname: &str) {
 fn check_regex(regex: String, msg: String, str_to_check: &String, full_line: &String, line_num: &u8, fname: &str) -> bool {
     let step_reg = Regex::new(&regex).unwrap();
     if !step_reg.is_match(&str_to_check) {
-        println!("\nERROR: {}\n\t--> {}:{}\n\t|\n Line {} | {}\n\t|\n\tInvalid string: {:?}\n", msg, fname, line_num, line_num, full_line, str_to_check);
+        println!("\nERROR: {}\n\t--> {}:{}\n\t|\n Line {} | {}\n\t|\n\tInvalid substring: {:?}\n", msg, fname, line_num, line_num, full_line, str_to_check);
         return true;
     }
     false
