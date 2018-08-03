@@ -5,8 +5,8 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 
 fn main() {
-    //let f = File::open("./goodfile.txt").expect("Unable to open file");
-    println!("\nReject flag: {:?}", check_file("./badfile.txt"));
+    let f = File::open("./goodfile.txt").expect("Unable to open file");
+    println!("\nReject flag: {:?}", check_file("./goodfile.txt").len());
 /*
     let f = File::open("./badfile.txt").expect("Unable to open file");
     let f = BufReader::new(f);
@@ -101,11 +101,7 @@ fn check_question(line: &String, line_num: &u8, fname: &str) ->u8{
         temp = check_regex(08, "$^".to_string(), "Invalid entry for question type in Field 2.".to_string(), &field2, &line, &line_num, &fname);
         if temp != 0 { return temp; }
     }
-    /*
-    let mut answer_vec : Vec<String> = Vec::new();
-    for x in 4..vec.len() {
-        answer_vec.push(vec[x].to_string());
-    }*/
+
     return 0;
 }
 
